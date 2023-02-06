@@ -1,0 +1,299 @@
+.body
+{
+    width: 1000px;
+    height: 1000px;
+}
+
+
+.fond
+{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #ff8800;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+
+}
+
+.container 
+{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 6;
+}
+
+.flèche
+{
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 7 ;
+    top: 6px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.angie
+{
+    position: absolute;
+    height: 70px;
+    top: 6px;
+    left: 40%;
+    width: auto;
+    z-index: 7; 
+}
+
+.silenium
+{
+    position: absolute;
+    height: 70px;
+    top: 8px;
+    right: 10px;
+    width: auto;
+    z-index: 7;
+}
+
+.barnab
+{
+    position: absolute;
+    background-color: #ff8800;
+    border-radius: 20px;
+    padding: 20px;
+    text-align:left;
+    position: absolute;
+    top: 150px;
+    font-size: large ;
+    font-size: 100px;
+    right: 30px;
+    height: 270px;
+    left: 30px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.164);
+}
+
+.barnabosse
+{
+  position: absolute;
+  height: 300px;
+  top: 155px;
+  left: 38px;
+  border-radius: 20px;
+}
+
+.texte
+{
+  position: absolute;
+  z-index: 9;
+  top: 130px;
+  font-size: 50px;
+  left: 680px;
+  width: 1160px;
+}
+
+
+.instagram
+{
+  position: absolute;
+  border-radius: 20px;
+  top: 500px;
+  font-size: 100px;
+  height: 150px;
+  width: 500px;
+  left: 30px;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.164);
+}
+
+.insta
+{
+  position: absolute;
+  height: 150px;
+  width: auto;
+  top: 500px;
+  left: 50px;
+  transition: transform .5s;
+}
+
+.insta:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.t
+{
+  position: absolute;
+  font-size: 80px;
+  color: #000;
+  top: 450px;
+  left: 230px;
+  z-index: 10;
+}
+
+.discord
+{
+  position: absolute;
+  border-radius: 20px;
+  top: 500px;
+  font-size: 100px;
+  height: 150px;
+  width: 600px;
+  left: 630px;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.164);
+}
+
+.disc
+{
+  position: absolute;
+  height: 150px;
+  width: auto;
+  top: 500px;
+  left:650px;
+  transition: transform .5s;
+}
+
+.disc:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.t1
+{
+  position: absolute;
+  font-size: 80px;
+  color: #f0f0f0;
+  top: 450px;
+  left: 830px;
+  z-index: 10;
+}
+
+.twitter
+{
+  position: absolute;
+  border-radius: 20px;
+  top: 800px;
+  font-size: 100px;
+  height: 150px;
+  width: 900px;
+  left: 30px;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.164);
+}
+
+.twit
+{
+  position: absolute;
+  height: 150px;
+  width: auto;
+  top: 800px;
+  left:50px;
+  transition: transform .5s;
+}
+
+.twit:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.t2
+{
+  position: absolute;
+  font-size: 70px;
+  color: #000000;
+  top: 770px;
+  left: 230px;
+  z-index: 10;
+}
+
+.tiktok
+{
+  position: absolute;
+  border-radius: 20px;
+  top: 500px;
+  font-size: 100px;
+  height: 150px;
+  width: 500px;
+  right: 30px;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.164);
+}
+
+.tik
+{
+  position: absolute;
+  height: 150px;
+  width: auto;
+  top: 500px;
+  border-radius: 20px;
+  right: 350px;
+  transition: transform .5s;
+}
+
+.tik:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.t3
+{
+  position: absolute;
+  font-size: 80px;
+  color: #000000;
+  top: 450px;
+  right: 50px;
+  z-index: 10;
+}
+
+.twitch
+{
+  position: absolute;
+  border-radius: 20px;
+  top: 800px;
+  font-size: 100px;
+  height: 150px;
+  width: 800px;
+  right: 30px;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.164);
+}
+
+.twi
+{
+  position: absolute;
+  height: 140px;
+  width: auto;
+  top: 805px;
+  right: 650px;
+  transition: transform .5s;
+}
+
+.twi:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.t4
+{
+  position: absolute;
+  font-size: 80px;
+  color: #000000;
+  top: 750px;
+  right: 50px;
+  z-index: 10;
+}

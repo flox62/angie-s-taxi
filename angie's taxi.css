@@ -1,0 +1,208 @@
+body
+{
+  height: 2000px;
+}
+
+
+.container 
+{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gauche, .centre, .droite
+{
+  position: absolute ;
+  top:0px;
+  margin-top: 0%;
+}
+
+.gauche
+{
+  height: 90px;
+  width: 90px;
+}
+
+.centre
+{
+  left: 40%;
+  height: 80px;
+}
+
+.droite
+{
+  right: 1%;
+  height: 65px;
+  top: 9px;
+}
+
+.bleu
+{
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  background-color: #2BAED7;
+  height: 700px;
+  width: 1870px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.shadow
+{
+  z-index: 0;
+}
+
+.ombre1
+{
+  position: absolute;
+  top: 782px;
+  height: 82px;
+  width: 1874px;
+  left: -4px;
+  z-index: 1;
+}
+
+.tome1
+{
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 35px;
+  z-index: 2;
+  transition: transform .5s;
+}
+
+.tome1:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.shadow
+{
+  position: absolute;
+  height: 309px;
+  width: 773px;
+  top: 450px;
+  left: -140px ;
+  z-index: 0;
+}
+
+.jaune
+{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #FFDE59;
+  height: 700px;
+  width: 1870px;
+  top: 790px;
+  align-items: center;
+  justify-content: space-between;
+  z-index:1;
+}
+
+.tome2
+{
+  position: absolute;
+  left: 0px;
+  height: 500px;
+  width: 500px;
+  top: 825px;
+  z-index: 3;
+  transition: transform .5s;
+}
+
+.tome2:hover
+{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+.shadow1
+{
+  position: absolute;
+  height: 309px;
+  width: 773px;
+  top: 450px;
+  left: -140px ;
+  z-index: 3;
+}
+
+.text1
+{
+  position: absolute;
+  height: 500px;
+  width: auto;
+  right: 300px;
+  top: 200px;
+  z-index: 3;
+}
+
+.text2
+{
+  position: absolute;
+  height: 500px;
+  width: auto;
+  right: 300px;
+  top: 950px;
+  z-index: 3;
+}
+
+.vert
+{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #48FC8D;
+  height: 700px;
+  width: 1870px;
+  top: 1490px;
+  align-items: center;
+  justify-content: space-between;
+  z-index:0;
+}
+
+.ombre2
+{
+  position: absolute;
+  top: -14px;
+  height: auto;
+  width: 1870px;
+  left: -1px;
+  z-index: 0;
+}
+
+.tome3
+{
+  position: absolute;
+  height: auto;
+  width: 400px;
+  left: 50px;
+  z-index: 1;
+}
+
+.text3
+{
+  position: absolute;
+  height: 500px;
+  width: auto;
+  right: 300px;
+  top: 70px;
+  z-index: 3;
+}
